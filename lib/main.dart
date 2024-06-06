@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_first_app/Homepage.dart';
+import 'package:flutter_first_app/pages/loginPage.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       color: Colors.black,
-      // debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Home(),
+        body: loginPage(),
       ),
     );
   }
