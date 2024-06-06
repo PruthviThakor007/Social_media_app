@@ -6,11 +6,11 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('App bar'),
-        centerTitle: true,
-        backgroundColor: Colors.deepPurple[300],
-      ),
+      // appBar: AppBar(
+      //   title: const Text('App bar'),
+      //   centerTitle: true,
+      //   backgroundColor: Colors.deepPurple[300],
+      // ),
       // drawer: Drawer(
       //   backgroundColor: Colors.deepPurple[100],
       //   child: Container(
