@@ -9,26 +9,36 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: const Text('App bar'),
         centerTitle: true,
-        backgroundColor: Colors.amber[300],
+        backgroundColor: Colors.deepPurple[300],
       ),
-      drawer: Drawer(
-        backgroundColor: Colors.deepPurple[100],
-        child: Container(
-          child: Column(
-            children: [
-              SizedBox(
-                height: 100,
-              ),
-              ListTile(
-                title: Text('Page 1'),
-              ),
-              ListTile(
-                title: Text('Page 2'),
-              ),
-            ],
-          ),
-        ),
-      ),
+      // drawer: Drawer(
+      //   backgroundColor: Colors.deepPurple[100],
+      //   child: Container(
+      //     child: ListView(
+      //       children: [
+      //         DrawerHeader(
+      //             child: Icon(
+      //           Icons.favorite_border_rounded,
+      //           size: 100,
+      //         )),
+      //         ListTile(
+      //           onTap: () {
+      //             print('page 1');
+      //           },
+      //           leading: Icon(Icons.home_filled),
+      //           title: Text('Page 1'),
+      //         ),
+      //         ListTile(
+      //           onTap: () {
+      //             print('page 2');
+      //           },
+      //           leading: Icon(Icons.home_filled),
+      //           title: Text('Page 2'),
+      //         ),
+      //       ],
+      //     ),
+      //   ),
+      // ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 30),
         child: Column(
@@ -38,7 +48,7 @@ class Home extends StatelessWidget {
                   hintText: 'Username',
                   border: InputBorder.none,
                   filled: true,
-                  fillColor: Colors.amber[100]),
+                  fillColor: Colors.deepPurple[100]),
             ),
             const SizedBox(
               height: 12,
@@ -48,7 +58,7 @@ class Home extends StatelessWidget {
                   hintText: 'Username',
                   border: InputBorder.none,
                   filled: true,
-                  fillColor: Colors.amber[100]),
+                  fillColor: Colors.deepPurple[100]),
             ),
             SizedBox(
               width: 300,
